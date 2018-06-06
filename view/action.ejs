@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Nombre Mystère</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        h1 {
+            color: green;
+            border: dotted black;
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nombre Mystère le Retour !</h1>
+
+    <form action="url" method="post">
+        <label for="nbr"><p>Entrez un nombre entre 0 et 9</p></label>
+        <input type="nombre" name="nombre" id="nbr" required />
+        <input type="submit" value="OK" id="envoi"/>
+    </form>
+    
+    
+    <div>
+        <p>Votre choix: <%= nombre %></p>
+        <p><%= message %></p>
+    </div>
+    
+    
+    
+</body>
+
+</html>
