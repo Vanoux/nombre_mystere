@@ -1,2 +1,2 @@
 # nombre_mystere
-Dépendances : "ejs" + "express"
+NPM Install pour télécharger les dépendances : "ejs" + "express"
