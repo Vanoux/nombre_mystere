@@ -10,9 +10,16 @@
             background-color:#1abc9c;
         }
         h1 {
+            font-size: 40px;
             color:#c0392b;
             border: dotted #27ae60;
+            padding: 20px;
+            margin-right: 200px;
+            margin-left: 200px;
             background-color: #f1c40f;
+        }
+        p {
+            font-size: 25px;
         }
     </style>
 </head>
@@ -21,7 +28,7 @@
     <h1>Nombre Mystère le Retour !</h1>
 
     <form action="/url" method="post">
-        <label for="nbr"><p>Entrez un nombre entre 0 et 9</p></label>
+        <label for="nbr"><p><strong>Entrez un nombre entre 0 et 9</strong></p></label>
         <input type="nombre" name="nombre" id="nbr" required />
         <input type="submit" value="OK" id="envoi"/>
     </form>
